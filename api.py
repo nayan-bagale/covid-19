@@ -59,8 +59,6 @@ def state(state_name,state_data):
             d_confirmed = state_data[state_name]['deltaconfirmed']
             d_recovered = state_data[state_name]['deltarecovered']
             d_deaths = state_data[state_name]['deltadeaths']
-            #delta = "'"+"{'confirmed': "+ d_confirmed + ", 'deaths': " + d_deaths + ", 'recoverd': "+ d_recovered + "}" + "'"
-            #delta = "['confirmed': {0}, 'deaths': {1}, 'recoverd': {3}]".format("d_confirmed","d_deaths","d_recovered")
             delta = {}
             delta['confirmed'] = d_confirmed
             delta['deaths'] = d_deaths
