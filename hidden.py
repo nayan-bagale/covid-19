@@ -1,7 +1,7 @@
 def head():
     headers = {
         'x-rapidapi-host': "corona-virus-world-and-india-data.p.rapidapi.com",
-        'x-rapidapi-key': "ca040efd03mshfa588c88bbbcf45p13e920jsn487a745968b2"
+        'x-rapidapi-key': "__________________________________"
         }
     return headers
 
