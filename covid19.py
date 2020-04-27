@@ -233,9 +233,11 @@ donothing = 'None'
 dir_img = 'img/favicon.ico'
 title = 'Covid-19 India 1.0.0 Beta'
 
+'''
 if is_connected() is False:
     msgbox = messagebox.showerror("Error", "Internet Connection Error")
     quit()
+'''
 
 date = datetime.strftime(datetime.now(), '%d-%B')
 
